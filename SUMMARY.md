@@ -2,5 +2,5 @@
 
 * [Introduction](introduction.md)
 * [Deployment](deployment.md)
-* Architecture
+* [Architecture](architecture.md)
 
