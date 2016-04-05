@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
-* Resources
+* [Resources](resources.md)
 
