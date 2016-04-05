@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](introduction.md)
-* [Deployment](deployment.md)
 * [Architecture](architecture.md)
+* [Deployment](deployment.md)
+
 
