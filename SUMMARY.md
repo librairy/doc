@@ -4,4 +4,3 @@
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
-
