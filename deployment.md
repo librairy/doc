@@ -13,4 +13,4 @@ In any case, first of all you need to deploy the [base](https://github.com/libra
 Create a folder named `base/` and put inside the file `docker-compose.yml` containing: 
 
 
-*It is recommended to create a root folder named `/librairy` where you can put the services what you need*. 
+*It is recommended to create a root folder named `/librairy` and then a folder hierarchy based on services. In such way, each service descriptor (`docker-compose.yml`) is organized by service*.
