@@ -14,4 +14,4 @@ Consumer  modules  listening  to  `queues`  bounded  to  the  `exchange`  by  a 
 
 We adopted the *exchange paradigm* for building our event-bus. Thus, every module (i.e. explorer, learner,  modeler, etc) defines the kind of events to listen by the *binding-key* used to bound its queue to the  `exchange`. The messages are sent with a `routing-key` to `queues` using a `binding-key` that matches with  that  `routing-key`.  These  `queues`  are  not  shared  among  different  modules,  but  yes  among  the  instances of the same module when the system is running on a cluster.
 
-Considering  only  systems  that  offer  persistence  and  replication  as  well  as  routing,  delaying  and  redelivering implementing the AMQP protocol, we used the RabbitMQ Message Broker.
+Considering  only  systems  that  offer  persistence  and  replication  as  well  as  routing,  delaying  and  redelivering implementing the AMQP protocol, we used the [RabbitMQ Message Broker](http://www.rabbitmq.com/).
