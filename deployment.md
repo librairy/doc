@@ -83,4 +83,4 @@ It provides programmatic access to functionality and content of *librairy*. Diff
 
 Each of them is presented as a RESTful-API using JSON as the return format.
 
-Create a `/explorer` folder and a `docker-compose.yml` file inside it with the following data:
+Create a `explorer/` folder and a `docker-compose.yml` file inside it with the following data:
