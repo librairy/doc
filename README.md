@@ -1,6 +1,6 @@
 # Librairy Tutorial
 
-This Doc is build for researchers so that it's easier to use and extend Librairy v0.3. Built using [Gitbook](https://github.com/GitbookIO/gitbook).
+This Doc is build for researchers so that it's easier to use and extend **librairy v0.3**. Built using [Gitbook](https://github.com/GitbookIO/gitbook).
 
 ## Librairy
 
