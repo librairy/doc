@@ -128,4 +128,4 @@ That's all!! librairy explorer should be run in your system now.
 
 Verify that it works on: [http://localhost:8080/api](http://localhost:8080/api).
 
-Note that by using Docker from OS X or Windows, the host address is not `localhost`. See [here](https://docs.docker.com/engine/installation/mac/) for more details.
+Note that by using Docker from OS X or Windows, the host address is not `localhost`. See [here](https://docs.docker.com/engine/installation/) for more details.
