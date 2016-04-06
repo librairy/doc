@@ -8,6 +8,9 @@ The only prerequisite to consider is to have installed [Docker-Compose v2](https
 
 Once it is installed, you can create your own composition of **librairy** by deploying as docker containers as you need. 
 
-writing a `docker-compose.yml` in your own.
+### Base
+
+All the *librairy* compositions require a [common-base](https://github.com/librairy/base) which deploys all the storage systems and the message broker used to communicate the rest of services. You need to run it before to run any other service.
+
 
 First of all, let's create our a file named docker-compose.yml containing the following services:
