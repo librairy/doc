@@ -34,3 +34,7 @@ The **topic-key** is defined in the same way that the routing-key, so it is also
 The **group-key** is a text string that allows different clients to join in the same queue to distribute the  events among them.
 
 Complete examples about routing are shown in the next section “Scenarios”. 
+
+## Messages
+
+
