@@ -7,3 +7,5 @@ It contains the following information:
 * **content**: lemma, i.e the word which stands at the head of a definition in a dictionary. 
 
 Furthermore, a word is embedded in one or more domains. In turn, a domain can contain zero or more words.
+
+![resource-word](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-word.png)
