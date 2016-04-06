@@ -12,6 +12,6 @@
    * [Word](resources/word.md)
    * [Term](resources/term.md)
 * [Architecture](architecture.md)
-   * Event Bus
+   * [Event Bus](architecture/event_bus.md)
 * [Deployment](deployment.md)
 
