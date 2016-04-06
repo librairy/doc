@@ -14,7 +14,7 @@ It is recommended to create a root folder named `/librairy` where the following 
 
 All the *librairy* compositions require a [common-base](https://github.com/librairy/base) which deploys all the storage systems and the message broker used to communicate the rest of services. You need to run it before to run any other service.
 
-Create a `/base` folder and a `docker-compose.yml` file inside it with the following data:
+Create a `base/` folder and a `docker-compose.yml` file inside it with the following data:
 
 ```yml
 version: "2"
