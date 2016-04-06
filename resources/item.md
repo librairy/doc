@@ -7,5 +7,6 @@ It contains the following information:
 * **name**: a label associated to the resource. 
 * **description**: additional information about it.  
 * **format**: the physical or digital manifestation of the element. It includes the media-type, i.e.  the [IANA](http://www.iana.org/assignments/mediaFtypes/mediaFtypes.xhtml) code. 
-* **language**: the language(s) in which it is specified. It is defined by RFCF176624 which includes a  twoFletter Language code followed, optionally, by a twoFletter country code. 
+* **language**:  the  language(s)  in  which  the  document  is  specified.  It  is  defined  by  [RFC-1766](http://www.ietf.org/rfc/rfc1766.txt)  which  includes  a  two-letter  language  code  followed,  optionally,  by  a  two-letter  country  code. 
+
 
