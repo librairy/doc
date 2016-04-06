@@ -13,7 +13,7 @@ It contains the following information:
 
 Furthermore, an item may contain zero or more parts. In turn, a part only belongs to one item.  
 
-
+![resource-item](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-item.png)
 
 Since **librairy** can also discover analogies among items, an item may contain zero or more references to other items. 
 
