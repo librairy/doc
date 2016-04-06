@@ -6,6 +6,6 @@ It contains the following information:
 * **creation-time**:  date  on  which  this  resource  was  created.  It  must  be  a  formatted  timestamp  following [ISO-8601](http://www.iso.org/iso/home/standards/iso8601.htm). 
 * **content**: the alphanumeric character string. 
 
-Furthermore, a term mentions one or more words and emerges in only one domain. In turn, a word can be mentioned by zero or more topics and a domain can contain zero or more topics.
+Furthermore, a term appears in one or more domains and mentions one or more words. In turn, a domain can contain zero or more terms and a words can belong to zero or more terms.
 
 
