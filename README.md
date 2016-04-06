@@ -1,5 +1,5 @@
 # Librairy Tutorial
-Built using [Gitbook](https://github.com/GitbookIO/gitbook).
+This Doc is build for researchers so that it's easier to read and examine Librairy v0.3 doc. Built using [Gitbook](https://github.com/GitbookIO/gitbook).Built using [Gitbook](https://github.com/GitbookIO/gitbook).
 
 ## Librairy
 **Librairy** is a service-oriented platform designed specifically using open-source java libraries. The aim of this framework is to allow researchers to easily use semantic techniques as collections of services. Thus, they can reuse them in their deployments or even incorporate new services to share with other researchers. 
