@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Resources](resources.md)
    * [Status](resources/status.md)
-   * Source
+   * [Source](resources/source.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
