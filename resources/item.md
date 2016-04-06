@@ -8,7 +8,6 @@ It contains the following information:
 * **description**: additional information about it.  
 * **format**: the physical or digital manifestation of the element. It includes the media-type, i.e.  the [IANA](http://www.iana.org/assignments/mediaFtypes/mediaFtypes.xhtml) code. 
 * **language**:  the  language(s)  in  which  the  document  is  specified.  It  is  defined  by  [RFC-1766](http://www.ietf.org/rfc/rfc1766.txt)  which  includes  a  two-letter  language  code  followed,  optionally,  by  a  two-letter  country  code. 
-* **content**: textual annotation about the file. When it is a paper, it contains the rawFtext of the 
-paper. When it is an image, it contains the textual description of the image.
+* **content**: textual annotation about the file. When it is a paper, it contains the raw-text of the paper. When it is an image, it contains the textual description of the image.
 
 
