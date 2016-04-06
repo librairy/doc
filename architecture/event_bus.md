@@ -53,6 +53,7 @@ In  order  to  understand  the  behaviour  of  our  event-bus,  let’s  see  so
 ![event-bus-sample](https://dl.dropboxusercontent.com/u/299257/librairy/figures/event-bus-exchange.png)
 
 ### S1: Different topic\keys and group\keys 
+
 In this case, the values may be:  
 * Topic_A = document.created
 * Topic_B = document.deleted
@@ -64,6 +65,7 @@ Then,  when  a  producer  sends  a  message  to  the  routing-key:  `document.cr
 So, in this scenario, consumers are listening for different messages. 
 
 ### S2: Same topic\keys and different group\keys
+
 In this case, the values may be:  
 * Topic_A = document.created
 * Topic_B = document.created
@@ -74,6 +76,17 @@ When a producer sends a message to the routing-key: `document.created`, both Con
 
 So,  in  this  scenario,  the  message  will  be  duplicated  among  consumers  which  have  the  same  topic-key. 
 
+### S3: Different topic\keys and same group\keys
+
+In this case, the values may be:  
+* Topic_A = document.created
+* Topic_B = document.deleted
+* Group_A = harvester
+* Group_B = harvester
+
+When a producer sends a message to the routing_key: `document.created`, only the Consumer1  will  receive  the  message.  When  a  producer  sends  the  message  to  the  routing-key:  `document.deleted`, only the Consumer2 will receive it.  
+
+In  this  scenario,  the  consumers  are  listening  for  different  messages.  The  common  group-key  has  no  effect because the topic-keys are different. 
 
 
 
