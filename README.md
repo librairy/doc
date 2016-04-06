@@ -4,7 +4,11 @@ This Doc is build for researchers so that it's easier to read and examine Librai
 
 ## Librairy
 
-**Librairy** is a service-oriented platform 
+**Librairy** is a service-oriented platform that aims to simplify the construction of large scale text-analyzers.
+
+
+
+allow researchers to easily use semantic techniques as collections of services. Thus, they can reuse them in their deployments or even incorporate new services to share with other researchers. 
 
 
 designed specifically using open-source java libraries. The aim of this framework is to allow researchers to easily use semantic techniques as collections of services. Thus, they can reuse them in their deployments or even incorporate new services to share with other researchers. 
