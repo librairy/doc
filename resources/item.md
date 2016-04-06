@@ -11,5 +11,8 @@ It contains the following information:
 * **content**: textual annotation about the file. When it is a paper, it contains the raw-text of the paper. When it is an image, it contains the textual description of the image.
 
 
+Furthermore, an item may contain zero or more parts and one or more words. In turn, a part only 
+belongs to one item, and a word can belong to one or more items.  Since epnoi can also discover analogies among items, an item may contain zero or more references 
+to other items. 
 
 
