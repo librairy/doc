@@ -50,7 +50,7 @@ Thus, for example, the message associated to the creation of a new source, i.e `
 ## Scenarios
 In  order  to  understand  the  behaviour  of  our  event-bus,  let’s  see  some  examples  for  the  following  configuration shown in the next figure:
 
-![event-bus-sample](https://dl.dropboxusercontent.com/u/299257/librairy/figures/event-bus-exchange.png =400)
+![event-bus-sample](https://dl.dropboxusercontent.com/u/299257/librairy/figures/event-bus-exchange.png)
 
 
 
