@@ -1,5 +1,5 @@
 # Term
-A word is the smallest meaningful unit contained in a text. 
+A term is the smallest meaningful unit contained in a text. 
 
 It contains the following information: 
 * **uri**: the Uniform Resource Identifier created by the system to uniquely identify it. 
