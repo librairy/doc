@@ -7,5 +7,6 @@ It contains the following information:
 * **creation-time**:  date  on  which  this  resource  was  created.  It  must  be  a  formatted  timestamp  following [ISO-8601](http://www.iso.org/iso/home/standards/iso8601.htm). 
 * **content**: an account of the meaning of the topic. Usually, it is the top 15 relevant words. 
 
+
 Furthermore, a topic mentions one or more words and emerges in only one domain. In turn, a word can be referenced by zero more topics and an analysis can be referenced by zero or more topics.  
 
