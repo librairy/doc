@@ -9,7 +9,7 @@
    * [Item](resources/item.md)
    * [Part](resources/part.md)
    * [Topic](resources/topic.md)
-   * Word
+   * [Word](resources/word.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
