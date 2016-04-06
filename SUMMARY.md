@@ -10,7 +10,7 @@
    * [Part](resources/part.md)
    * [Topic](resources/topic.md)
    * [Word](resources/word.md)
-   * Term
+   * [Term](resources/term.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
