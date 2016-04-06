@@ -10,7 +10,7 @@ The only prerequisite to consider is to have installed [Docker-Compose v2](https
 
 In any case, first of all you need to deploy the [base](https://github.com/librairy/base) service which contains the storage systems and the message broker required to communicate services.
 
-Create a folder named `base/` and 
+Create a folder named `base/` and put inside the file `docker-compose.yml` containing: 
 
 
 
