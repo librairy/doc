@@ -88,6 +88,18 @@ When a producer sends a message to the routing_key: `document.created`, only the
 
 In  this  scenario,  the  consumers  are  listening  for  different  messages.  The  common  group-key  has  no  effect because the topic-keys are different. 
 
+### S4: Same topic\keys and group\keys 
+
+In this case, the values may be:  
+* Topic_A = document.created
+* Topic_B = document.created
+* Group_A = harvester
+* Group_B = harvester
+
+When  a  producer  sends  a  message  to  the  routing-key:  `document.created`,  only  one  of  the  consumers will receive the message. By default, a *round-robin* approach is defined to dispatch this  type of messages. 
+
+In this scenario, the message is balanced among consumers listening for the same route.
+
 
 
 
