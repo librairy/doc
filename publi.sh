@@ -1,2 +1,2 @@
 #!/bin/bash
-npm run doc:publish
+npm run docs:publish
