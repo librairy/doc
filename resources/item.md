@@ -11,7 +11,7 @@ It contains the following information:
 * **content**: textual annotation about the file. When it is a paper, it contains the raw-text of the paper. When it is an image, it contains the textual description of the image.
 
 
-Furthermore, an item may contain zero or more parts and one or more topics. In turn, a part only belongs to one item.  
+Furthermore, an item may contain zero or more parts and one or more topics. In turn, a part only belongs to one item and a topic can belong to more than one item.  
 
 ![resource-item](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-item.png)
 
