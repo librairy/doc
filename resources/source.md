@@ -11,9 +11,10 @@ A source may contain zero or more references to documents and a document may hav
 
 ![resource-source](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-source.png)
 It may be a static or a dynamic repository:  
-* **Static**: repository that will not change along time. So, once processed, new information will 
-never be available from it again. It can be a single file (e.g. 
-http://world.std.com/~rjs/indinf56.pdf) or a closed timeFbased expression for an 
+* **Static**: repository that will not change along time. So, once processed, new information will never be available from it again. It can be a single file (e.g. 
+`http://world.std.com/~rjs/indinf56.pdf`) or a closed time-based expression for an 
 open archive service (e.g. 
-http://www.worldsciencepublisher.org/journals/index.php/AASS/oai?from=2012- 01-01T00:00:00). 
-* **Dynamic**: repository that may have new documents in the future, such as an open archive  publisher (e.g. http://oa.upm.es/perl/oai2), a RSS feeder (e.g.  http://rss.slashdot.org/Slashdot/slashdot) ,  a remote folder (e.g.  //192.168.5.125/Public/papers) or even a web page (e.g.  https://en.wikipedia.org/wiki/Artificial_Intelligence). This type of resources will  be continuously polled by the hoarder module.
+`http://www.worldsciencepublisher.org/journals/index.php/AASS/oai?from=2012- 01-01T00:00:00`). 
+* **Dynamic**: repository that may have new documents in the future, such as an open archive  publisher (e.g. `http://oa.upm.es/perl/oai2`). This type of resources will  be continuously polled by the hoarder module.
+
+Currently, *The Open Archives Initiative Protocol for Metadata Harvesting* ([OAIFPMH](http://www.openarchives.org/)) and *Really  Simple Sindication* ([RSS](http://www.rssboard.org/rssFspecification)) are the protocols supported by our system. Future integrations will be done  to allow sources such as Dropbox, CIFS/SMB, FTP/FTPS, Elsevier API, Figshare API, arXiv API, DBLP  Corpora, Research Gate, Mendeley and CiteSeer.
