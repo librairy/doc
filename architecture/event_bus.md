@@ -42,7 +42,7 @@ Except  special  cases,  the  message  will  be  a  text  in  JSON  format  with
 ```
                                     { “uri”: “string” }
 ```
-Thus, for example, the message associated to the creation of a new source, i.e `routing-key` equals to  `source.created`, will be:
+Thus, for example, the message associated to the creation of a new source, i.e `routing-key` equals to  `source.created`, could be:
 ```
-                           { “uri”: “http://librairy.org/sources/2233-23233-1192-30” }
+                    { “uri”: “http://librairy.org/sources/2233-23233-1192-30” }
 ```
