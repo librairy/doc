@@ -25,7 +25,7 @@ In general, a `routing-key` can be defined by a list of words delimited by dots.
 The first part identifies the resource associated to the event, and the second one is its current status. For instace, `document.created`, `appeared_in.created`, `item.deleted`. 
 
 ## Binding-Key
-An  exchange  is  bound  to  queues  through  binding-keys  composed  by  a  *topic-key*  and  a  *group-key*.  Messages will be delivered to those queues bound to the exchange with a binding-key that matches  with the routing-key of the message. 
+An  exchange  is  bound  to  queues  through  binding-keys  composed  by  a  *topic-key*  and  a *group-key*.  Messages will be delivered to those queues bound to the exchange with a binding-key that matches  with the routing-key of the message. 
 
 The **topic-key** is defined in the same way that the routing-key, so it is also composed by two words separated by one dot. There are two special cases for matching a topic-key:  
 * '`*`': it means that it can be substituted by exactly one word (e.g. `*.created` listen for all the new resources and relations added to the system). 
