@@ -8,7 +8,7 @@
    * [Document](resources/document.md)
    * [Item](resources/item.md)
    * [Part](resources/part.md)
-   * Topic
+   * [Topic](resources/topic.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
