@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Architecture](architecture.md)
 * [Resources](resources.md)
+* [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
