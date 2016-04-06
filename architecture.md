@@ -5,7 +5,7 @@
 ![architecture](https://dl.dropboxusercontent.com/u/299257/librairy/figures/services.png)
 
 It follows a ***Staged Event-Driven Architecture*** ([SEDA](http://www.eecs.harvard.edu/~mdw/proj/seda/)) that decomposes the flow
-into a set of stages connected by queues. When a new content is published or modified from a source  or when someone submits a new document, a new event is created and handled in the system to  update or to build new relationships between this new resource and others.
+into a set of stages connected by queues. When a resource (or a relation) change its status, i.e is created or modified or deleted, a new event is published and handled in the system to update it or to build new resources or relationships.
 
 Next we provide a list of services and their responsibility:
 * [Explorer](https://github.com/librairy/explorer): deploys a RESTful-web interface to allow executing operations on the system. 
