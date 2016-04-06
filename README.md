@@ -4,7 +4,7 @@ This Doc is build for researchers so that it's easier to read and examine Librai
 
 ## Librairy
 
-**Librairy** is a service-oriented platform that aims to simplify the construction of large scale text-analyzers.
+**Librairy** is a service-oriented platform that aims to simplify the construction of large scale text-analyzers. It is a collection of Natural Language Processing (NLP) tasks, machine learning algorithms and semantic techniques distributed as services to compose a global solution. 
 
 
 
