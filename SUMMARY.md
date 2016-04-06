@@ -1,4 +1,4 @@
-# Summary
+# Table of content
 
 * [Introduction](README.md)
 * [Resources](resources.md)
@@ -14,4 +14,3 @@
 * [Architecture](architecture.md)
    * [Event Bus](architecture/event_bus.md)
 * [Deployment](deployment.md)
-
