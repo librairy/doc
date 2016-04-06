@@ -36,6 +36,6 @@ The **group-key** is a text string that allows different clients to join in the 
 Complete examples about routing are shown in the next section “Scenarios”. 
 
 ## Messages
-Usually,  the  content  of  a  message  is  a  string  of  characters  in  a  *Javascript  Object  Notation*  ([JSON](http://www.json.org/))  format.  But  also,  it  may  be  an  array  of  bytes  serialized  in  a  particular  way.  Our  eventFbus  allows  clients to use both formats. The type of the event, i.e. its routing@key, defines implicity the format of  the message to be understood by both producer and consumer. 
+Usually,  the  content  of  a  message  is  a  string  of  characters  in  a  *Javascript  Object  Notation*  ([JSON](http://www.json.org/))  format.  But  also,  it  may  be  an  array  of  bytes  serialized  in  a  particular  way.  Our  event-bus  allows  clients to use both formats. The type of the event, i.e. its routing@key, defines implicity the format of  the message to be understood by both producer and consumer. 
 Except  special  cases,  the  message  will  be  a  text  in  JSON  format  with  only  one  field:  the  URI  of  the  resource. 
 
