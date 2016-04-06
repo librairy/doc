@@ -1,6 +1,7 @@
+![banner](https://dl.dropboxusercontent.com/u/299257/librairy/figures/banner.png)
 # Librairy Tutorial
 
-This Doc is build for researchers so that it's easier to use and extend Librairy v0.3. Built using [Gitbook](https://github.com/GitbookIO/gitbook).
+This Doc is build for researchers so that it's easier to use and extend **librairy v0.3**.
 
 ## Librairy
 
@@ -23,6 +24,3 @@ All services have been built by using the [Boot](https://github.com/librairy/boo
 * Event-driven architecture with a central `Event-Bus`
 * Flexible, "as-needed" architecture allowing you to pick and choose what you need
 * And more ..
-
-
-[Read-more](https://www.gitbook.com/book/cbadenes/librairy-tutorial/details)
