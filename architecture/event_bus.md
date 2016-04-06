@@ -46,3 +46,8 @@ Thus, for example, the message associated to the creation of a new source, i.e `
 ```
                     { “uri”: “http://librairy.org/sources/2233-23233-1192-30” }
 ```
+
+## Scenarios
+
+In  order  to  understand  the  behaviour  of  our  event-bus,  let’s  see  some  examples  for  the  following  configuration shown in the next figure:
+
