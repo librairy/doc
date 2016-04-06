@@ -9,4 +9,7 @@ It contains the following information:
 
 Furthermore, a topic mentions one or more words and emerges in only one domain. In turn, a word can be mentioned by zero or more topics and a domain can contain zero or more topics.
 
+![resource-topic](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-topic.png)
 
+Since topics are also used to represent resources, they are also referenced by one or more 
+item and parts. 
