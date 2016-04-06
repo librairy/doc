@@ -23,3 +23,5 @@ In general, a `routing-key` can be defined by a list of words delimited by dots.
                                     <resource|relation>.<status>
 ```
 The first part identifies the resource associated to the event, and the second one is its current status. For instace, `document.created`, `appeared_in.created`, `item.deleted`. 
+
+## Binding-Key
