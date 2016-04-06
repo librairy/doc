@@ -12,7 +12,7 @@ It allows users to easily deploy services, so that they can reuse them in their 
 
 In this way, you are not required to use all of services just because you want to use some of them. You can pick and choose which services you want to use. This allows you to work with other tools easily. It also means that you are not required to engage in an all-or-nothing deployment to begin using *librairy*.
 
-All services have been built by using the [Boot](https://github.com/librairy/boot) library. It encapsulates all the particularities required by the system, offering a more friendly interface. Also, a Restful-HTTP service is available supporting similar functionality in a less coupled way. It is the [Explorer](https://github.com/librairy/explorer) service. 
+All services have been built by using the [Boot](https://github.com/librairy/boot) library. It encapsulates all the particularities required by the system, offering a more friendly interface. Also, a Restful-HTTP service named [Explorer](https://github.com/librairy/explorer) is available supporting similar functionality in a less coupled way. 
 
 
 ### Key Benefits
