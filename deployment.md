@@ -6,7 +6,9 @@ To  facilitate  the  installation  of  the  system,  each of the services has  b
 
 The only prerequisite to consider is to have installed [Docker-Compose v2](https://docs.docker.com/compose/) in your system.
 
-Once it is installed, you can create your own composition of **librairy** by deploying as docker containers as you need. 
+Once it is installed, you can create your own composition of **librairy** by deploying as docker containers as you need.
+
+It is recommended to create a `/librairy` folder as root where the rest of services are located.
 
 ### Base
 
@@ -80,3 +82,5 @@ It provides programmatic access to functionality and content of *librairy*. Diff
 * **Exploration**: Find a path or get resources from their relationships.
 
 Each of them is presented as a RESTful-API using JSON as the return format.
+
+Create a `/explorer` folder and a `docker-compose.yml` file inside it with the following data:
