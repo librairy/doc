@@ -6,9 +6,9 @@ To  facilitate  the  installation  of  the  system,  each of the services has  b
 
 The only prerequisite to consider is to have installed [Docker-Compose v2](https://docs.docker.com/compose/) in your system.
 
-Once it is installed, you can create your own composition of **librairy** by deploying as docker containers as you need.
+Once it is installed, you can create your own composition of **librairy** by deploying as docker containers, i.e. *docker* or *docker-compose*, as you need.
 
-It is recommended to create a `/librairy` folder as root where the rest of services are located.
+It is recommended to create a root folder named `/librairy` where services are located.
 
 ### Base
 
