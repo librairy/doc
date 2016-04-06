@@ -7,6 +7,7 @@ It contains the following  information:
 * **sense**: It could be a rhetorical class such as *background*, *approach*, *challenge*, *future-work* or *outcome*; or a section in the text such as *introduction*, *abstract*, *discussion*, *conclusion*, *results* or *method*; or any other label used to classify parts of an item. 
 * **content**:  text retrieved from the item, sharing the same class in a classification (e.g. rhetorical class). 
 
+Furthermore, a part can contain one or more topics and a topic can be referenced by one or more  parts. 
 
 ![resource-part](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-part.png)
 
