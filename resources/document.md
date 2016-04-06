@@ -18,3 +18,7 @@ A document contains all the meta-information associated to the publication, acco
 
 Furthermore , a document may contain zero or more items. In turn, an item can belong to one or 
 more documents. 
+
+
+
+Since **librairy** can also discover analogies among documents, or aggregates other documents,  a document may contain zero or more references to other documents.
