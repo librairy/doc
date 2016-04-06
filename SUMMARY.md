@@ -4,7 +4,7 @@
 * [Resources](resources.md)
    * [Status](resources/status.md)
    * [Source](resources/source.md)
-   * Domain
+   * [Domain](resources/domain.md)
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
