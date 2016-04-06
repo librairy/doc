@@ -29,4 +29,4 @@ An  exchange  is  bound  to  queues  through  binding-keys  composed  by  a  ***
 
 The topic-key is defined in the same way that the routing-key, so it is also composed by two words separated by one dot. There are two special cases for matching a topic-key:  
 * '`*`': it means that it can be substituted by exactly one word (e.g. `*.created` listen for all the new resources and relations added to the system). 
-* '`#`': it means that it can be substituted by zero or more words (e.g. `#` listen for all resources and relations in **any** status).
+* '`#`': it means that it can be substituted by zero or more words (e.g. `#` listen for all resources and relations in *any* status).
