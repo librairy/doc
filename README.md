@@ -16,16 +16,13 @@ All services have been built by using the [Boot](https://github.com/librairy/boo
 
 
 ### Key Benefits
-* Scalable: applications are built in modules, and with event-driven architecture
-* Easily modifiable: make it work with your application's specific needs
-* Reduce boilerplate for views, with specialized view types
-* Build on a modular architecture with an `Application` and modules that attach to it
-* Compose your application's visuals at runtime, with the `Region` and `Layout` objects
-* Nested views and layouts within visual regions
-* Built-in memory management and zombie-killing in views, regions and layouts
-* Event-driven architecture with `Backbone.Wreqr.EventAggregator`
+* *Scalable*: applications are built in modules, and with event-driven architecture
+* *Easily Modifiable*: make it work with your application's specific needs
+* Build on a modular architecture with a common base and modules attached to it
+* Compose your logic at runtime, handling the `event-messages`
+* Event-driven architecture with a central `Event-Bus`
 * Flexible, "as-needed" architecture allowing you to pick and choose what you need
-* And much, much more
+* And more ..
 
 
 [Read-more](https://www.gitbook.com/book/cbadenes/librairy-tutorial/details)
