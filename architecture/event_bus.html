@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Event Bus | Librairy Tutorial</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../deployment.html" />
+    
+    
+    <link rel="prev" href="../architecture.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.1"
+        data-chapter-title="Event Bus"
+        data-filepath="architecture/event_bus.md"
+        data-basepath=".."
+        data-revision="Wed Apr 06 2016 18:17:15 GMT+0200 (CEST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="resources.html">
+            
+                
+                    <a href="../resources.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Resources
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="resources/status.html">
+            
+                
+                    <a href="../resources/status.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Status
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="resources/source.html">
+            
+                
+                    <a href="../resources/source.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Source
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="resources/domain.html">
+            
+                
+                    <a href="../resources/domain.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Domain
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="resources/document.html">
+            
+                
+                    <a href="../resources/document.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Document
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="resources/item.html">
+            
+                
+                    <a href="../resources/item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="resources/part.html">
+            
+                
+                    <a href="../resources/part.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Part
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="resources/topic.html">
+            
+                
+                    <a href="../resources/topic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Topic
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="resources/word.html">
+            
+                
+                    <a href="../resources/word.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        Word
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="resources/term.html">
+            
+                
+                    <a href="../resources/term.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Term
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="architecture.html">
+            
+                
+                    <a href="../architecture.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Architecture
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1" data-path="architecture/event_bus.html">
+            
+                
+                    <a href="../architecture/event_bus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Event Bus
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="deployment.html">
+            
+                
+                    <a href="../deployment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Deployment
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Librairy Tutorial</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="event-bus">Event Bus</h1>
+<p>Following a publisher/subscriber approach, all the modules in the system can publish and read  events to notify and to be notified about the system state. </p>
+<p>For example, when a new item is created, an event-message will be published to the channel:  <code>item.created</code>. This event will be managed by the learner module to begin to analyze all the  items in that domain and also by the modeler module to begin to build models which represent  these items. Therefore, the system flow is not unique and is not directly implemented, instead  parallel and emergent flows can appear according to particular actions on resources. </p>
+<p>We use the <em>Advanced Message Queuing Protocol</em> (<a href="http://www.amqp.org/" target="_blank">AMQP</a>) as our messaging standard to avoid any  cross-platform problem and any dependency to the selected message broker. This protocol defines  the following elements: <code>exchange</code>, <code>queue</code> and <code>routing-key</code>. </p>
+<p><img src="https://dl.dropboxusercontent.com/u/299257/librairy/figures/event-bus-sample.png" alt="event-bus-sample"></p>
+<p>In this scenario, a <em>producer</em> module sends a message to the <code>exchange</code> element, instead of a <code>queue</code>,  along with a <code>routing-key</code>. That <code>exchange</code> may be bound to <code>queues</code> through <em>topic</em> and <em>group</em> bindings defined by a module. A <em>topic binding</em> is a directive indicating what messages should be routed from an <code>exchange</code> to a <code>queue</code>. The <em>group binding</em> allows system to deliver a message only  to one <em>consumer</em> sharing the same <em>group</em> value, getting a dynamic distribution of load between them. </p>
+<p>Consumer  modules  listening  to  <code>queues</code>  bounded  to  the  <code>exchange</code>  by  a  topic  binding  that  match  to the <code>routing-key</code> used to sent the message, will receive that message. </p>
+<p>We adopted the <em>exchange paradigm</em> for building our event-bus. Thus, every module (i.e. explorer, learner,  modeler, etc) defines the kind of events to listen by the <em>binding-key</em> used to bound its queue to the  <code>exchange</code>. The messages are sent with a <code>routing-key</code> to <code>queues</code> using a <code>binding-key</code> that matches with  that  <code>routing-key</code>.  These  <code>queues</code>  are  not  shared  among  different  modules,  but  yes  among  the  instances of the same module when the system is running on a cluster.</p>
+<p>Considering  only  systems  that  offer  persistence  and  replication  as  well  as  routing,  delaying  and  redelivering implementing the AMQP protocol, we used the <a href="http://www.rabbitmq.com/" target="_blank">RabbitMQ Message Broker</a>.</p>
+<h2 id="routingkey">Routing-Key</h2>
+<p>In general, a <code>routing-key</code> can be defined by a list of words delimited by dots. In our case, it consists of only two words separated by one dot:</p>
+<pre><code>                                    &lt;resource|relation&gt;.&lt;status&gt;
+</code></pre><p>The first part identifies the resource associated to the event, and the second one is its current status. For instace, <code>document.created</code>, <code>appeared_in.created</code>, <code>item.deleted</code>. </p>
+<h2 id="bindingkey">Binding-Key</h2>
+<p>An  exchange  is  bound  to  queues  through  binding-keys  composed  by  a  <em>topic-key</em>  and  a <em>group-key</em>.  Messages will be delivered to those queues bound to the exchange with a binding-key that matches  with the routing-key of the message. </p>
+<p>The <strong>topic-key</strong> is defined in the same way that the routing-key, so it is also composed by two words separated by one dot. There are two special cases for matching a topic-key:  </p>
+<ul>
+<li>&apos;<code>*</code>&apos;: it means that it can be substituted by exactly one word (e.g. <code>*.created</code> listen for all the new resources and relations added to the system). </li>
+<li>&apos;<code>#</code>&apos;: it means that it can be substituted by zero or more words (e.g. <code>#</code> listen for all resources and relations in <em>any</em> status).</li>
+</ul>
+<p>The <strong>group-key</strong> is a text string that allows different clients to join in the same queue to distribute the  events among them.</p>
+<p>Complete examples about routing are shown in the next section &#x201C;Scenarios&#x201D;. </p>
+<h2 id="messages">Messages</h2>
+<p>Usually,  the  content  of  a  message  is  a  string  of  characters  in  a  <em>Javascript  Object  Notation</em>  (<a href="http://www.json.org/" target="_blank">JSON</a>)  format.  But  also,  it  may  be  an  array  of  bytes  serialized  in  a  particular  way.  Our  event-bus  allows  clients to use both formats. The type of the event, i.e. its <code>routing-key</code>, defines implicity the format of  the message to be understood by both producer and consumer. </p>
+<p>Except  special  cases,  the  message  will  be  a  text  in  JSON  format  with  only  one  field:  the  URI  of  the  resource. </p>
+<pre><code>                                    { &#x201C;uri&#x201D;: &#x201C;string&#x201D; }
+</code></pre><p>Thus, for example, the message associated to the creation of a new source, i.e <code>routing-key</code> equals to  <code>source.created</code>, could be:</p>
+<pre><code>                    { &#x201C;uri&#x201D;: &#x201C;http://librairy.org/sources/2233-23233-1192-30&#x201D; }
+</code></pre><h2 id="scenarios">Scenarios</h2>
+<p>In  order  to  understand  the  behaviour  of  our  event-bus,  let&#x2019;s  see  some  examples  for  the  following  configuration shown in the next figure:</p>
+<p><img src="https://dl.dropboxusercontent.com/u/299257/librairy/figures/event-bus-exchange.png" alt="event-bus-exchange"></p>
+<h3 id="scenario-1-different-topickeys-and-groupkeys">Scenario 1: Different topic\keys and group\keys</h3>
+<p>In this case, the values may be:  </p>
+<ul>
+<li>Topic_A = <code>document.created</code></li>
+<li>Topic_B = <code>document.deleted</code></li>
+<li>Group_A = <code>harvester</code></li>
+<li>Group_B = <code>modeler</code></li>
+</ul>
+<p>Then,  when  a  producer  sends  a  message  to  the  routing-key:  <code>document.created</code>,  only  the  Consumer1 will receive the message. If the message had been sent to <code>document.deleted</code>, only  the Consumer2 would have received the message. </p>
+<p>So, in this scenario, consumers are listening for different messages. </p>
+<h3 id="scenario-2-same-topickeys-and-different-groupkeys">Scenario 2: Same topic\keys and different group\keys</h3>
+<p>In this case, the values may be:  </p>
+<ul>
+<li>Topic_A = <code>document.created</code></li>
+<li>Topic_B = <code>document.created</code></li>
+<li>Group_A = <code>harvester</code></li>
+<li>Group_B = <code>modeler</code></li>
+</ul>
+<p>When a producer sends a message to the routing-key: <code>document.created</code>, both Consumer1 and  Consumer2 will receive that message. </p>
+<p>So,  in  this  scenario,  the  message  will  be  duplicated  among  consumers  which  have  the  same  topic-key but different group-key.</p>
+<h3 id="scenario-3-different-topickeys-and-same-groupkeys">Scenario 3: Different topic\keys and same group\keys</h3>
+<p>In this case, the values may be:  </p>
+<ul>
+<li>Topic_A = <code>document.created</code></li>
+<li>Topic_B = <code>document.deleted</code></li>
+<li>Group_A = <code>harvester</code></li>
+<li>Group_B = <code>harvester</code></li>
+</ul>
+<p>When a producer sends a message to the routing-key: <code>document.created</code>, only the Consumer1  will  receive  the  message.  When  a  producer  sends  the  message  to  the  routing-key:  <code>document.deleted</code>, only the Consumer2 will receive it.  </p>
+<p>In  this  scenario,  the  consumers  are  listening  for  different  messages.  The  common  group-key  has  no  effect because the topic-keys are different. </p>
+<h3 id="scenario-4-same-topickeys-and-groupkeys">Scenario 4: Same topic\keys and group\keys</h3>
+<p>In this case, the values may be:  </p>
+<ul>
+<li>Topic_A = <code>document.created</code></li>
+<li>Topic_B = <code>document.created</code></li>
+<li>Group_A = <code>harvester</code></li>
+<li>Group_B = <code>harvester</code></li>
+</ul>
+<p>When  a  producer  sends  a  message  to  the  routing-key:  <code>document.created</code>,  only  one  of  the  consumers will receive the message. By default, a round-robin approach is applied to dispatch this  kind of messages. </p>
+<p>In this scenario, the message is balanced among consumers listening for the same route. </p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../architecture.html" class="navigation navigation-prev " aria-label="Previous page: Architecture"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../deployment.html" class="navigation navigation-next " aria-label="Next page: Deployment"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

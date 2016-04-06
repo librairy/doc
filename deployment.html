@@ -1,0 +1,476 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Deployment | Librairy Tutorial</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    
+    <link rel="prev" href="./architecture/event_bus.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3"
+        data-chapter-title="Deployment"
+        data-filepath="deployment.md"
+        data-basepath="."
+        data-revision="Wed Apr 06 2016 18:17:15 GMT+0200 (CEST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="resources.html">
+            
+                
+                    <a href="./resources.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Resources
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="resources/status.html">
+            
+                
+                    <a href="./resources/status.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Status
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="resources/source.html">
+            
+                
+                    <a href="./resources/source.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Source
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="resources/domain.html">
+            
+                
+                    <a href="./resources/domain.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Domain
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="resources/document.html">
+            
+                
+                    <a href="./resources/document.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Document
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="resources/item.html">
+            
+                
+                    <a href="./resources/item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="resources/part.html">
+            
+                
+                    <a href="./resources/part.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Part
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="resources/topic.html">
+            
+                
+                    <a href="./resources/topic.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Topic
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="resources/word.html">
+            
+                
+                    <a href="./resources/word.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.8.</b>
+                        
+                        Word
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="resources/term.html">
+            
+                
+                    <a href="./resources/term.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.9.</b>
+                        
+                        Term
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="architecture.html">
+            
+                
+                    <a href="./architecture.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Architecture
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="architecture/event_bus.html">
+            
+                
+                    <a href="./architecture/event_bus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Event Bus
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="3" data-path="deployment.html">
+            
+                
+                    <a href="./deployment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Deployment
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Librairy Tutorial</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="deployment">Deployment</h1>
+<p>In order to facilitate the installation of <em>librairy</em>, all the services are packaged as Docker-Images and uploaded to <a href="https://hub.docker.com/u/librairy/dashboard/" target="_blank">Docker-Hub</a> and uploaded to <a href="https://hub.docker.com/u/librairy/dashboard/" target="_blank">Docker-Hub</a>.</p>
+<p>The only prerequisite to consider is to have installed <a href="https://docs.docker.com/compose/" target="_blank">Docker-Compose v2</a> in your system.</p>
+<h2 id="get-started">Get Started!</h2>
+<p><em>librairy</em> is a composition of services, so you can combine them freely. This means that you can create a unique <code>docker-compose.yml</code> descriptor including all the services or as <code>docker-compose.yml</code> descriptors as services you need. </p>
+<p>In any case, first of all you need to deploy the <a href="https://github.com/librairy/base" target="_blank">base</a> service which contains the storage       systems and the message broker required to communicate services.</p>
+<blockquote>
+<p><em>It is recommended to create a root folder named <code>/librairy</code> and then a folder hierarchy based on services. In such way, each service descriptor (<code>docker-compose.yml</code>) is organized by service</em>.</p>
+</blockquote>
+<p>Create a folder named <code>base/</code> and put inside the file <code>docker-compose.yml</code> with the following text:</p>
+<pre><code class="lang-yml">version: &quot;2&quot;
+services:
+ column-db:
+   container_name: column-db
+   image: librairy/column-db:1.0
+   restart: always
+   expose:
+     - &quot;9042&quot;
+     - &quot;9160&quot;
+   ports:
+     - &quot;5010:8080&quot;
+     - &quot;5011:9042&quot;
+     - &quot;5012:9160&quot;
+   networks:
+     - &quot;db&quot;
+ document-db:
+   container_name: document-db
+   image: librairy/document-db:1.0
+   restart: always
+   expose:
+     - &quot;9200&quot;
+     - &quot;9300&quot;
+   ports:
+     - &quot;5020:9200&quot;
+     - &quot;5021:9300&quot;
+   networks:
+     - &quot;db&quot;
+ graph-db:
+   container_name: graph-db
+   image: librairy/graph-db:1.0
+   restart: always
+   expose:
+     - &quot;7474&quot;
+   ports:
+     - &quot;5030:7474&quot;
+   networks:
+     - &quot;db&quot;
+ event-bus:
+   container_name: event-bus
+   image: librairy/event-bus:1.0
+   restart: always
+   expose:
+     - &quot;15672&quot;
+     - &quot;5672&quot;
+   ports:
+     - &quot;5040:15672&quot;
+     - &quot;5041:5672&quot;
+   networks:
+     - &quot;events&quot;
+networks:
+ db:
+ events:
+</code></pre>
+<p>and then, deploy it by typing:</p>
+<pre><code class="lang-sh">$ docker-compose up
+</code></pre>
+<p>Verify that it works on: <a href="http://localhost:5040" target="_blank">http://localhost:5040</a>.</p>
+<p>Note that by using Docker from OS X or Windows, the host address is not localhost. See <a href="https://docs.docker.com/engine/installation" target="_blank">here</a> for more details.</p>
+<h3 id="explorer">Explorer</h3>
+<p><a href="https://github.com/librairy/explorer" target="_blank">Explorer</a> provides programmatic access to functionality and content of <em>librairy</em>. Different facades are offered based on the type of the operation:</p>
+<ul>
+<li><strong>Management</strong>: Create/Read/Update/Delete (CRUD) resources.</li>
+<li><strong>Read</strong>: Get a resource by key, e.g. by uri.</li>
+<li><strong>Search</strong>: Get a sorted list of resources based on internal criterias, i.e. based only on the content of the resource. For example, resources containing the word graphic in their title.</li>
+<li><strong>Exploration</strong>: Find a path or get resources from their relationships.</li>
+</ul>
+<p>Each of them is presented as a RESTful-API using JSON as the return format.</p>
+<p>As before, create a folder named <code>explorer/</code> and put inside the file <code>docker-compose.yml</code> with the following text:</p>
+<pre><code class="lang-yml">version: &quot;2&quot;
+services:
+ explorer:
+   container_name: explorer
+   image: librairy/explorer:latest
+   expose:
+     - &quot;8080&quot;
+   ports:
+     - &quot;8080:8080&quot;
+   external_links:
+     - column-db
+     - document-db
+     - graph-db
+     - event-bus
+   networks:
+     - &quot;db&quot;
+     - &quot;events&quot;
+networks:
+  db:
+    external:
+      name: base_db
+  events:
+    external:
+      name: base_events
+</code></pre>
+<p>and then, deploy it by typing:</p>
+<pre><code class="lang-sh">$ docker-compose up
+</code></pre>
+<p>That&apos;s all!! <strong>librairy explorer</strong> should be run in your system now.</p>
+<p>Verify that it works on: <a href="http://localhost:8080/api" target="_blank">http://localhost:8080/api</a>.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./architecture/event_bus.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Event Bus"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
