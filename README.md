@@ -4,11 +4,7 @@ This Doc is build for researchers so that it's easier to read and examine Librai
 
 ## Librairy
 
-**Librairy** is a service-oriented platform that aims to simplify the construction of large scale text-analyzers. It is a collection of Natural Language Processing (NLP) tasks, machine learning algorithms and semantic techniques distributed as services to compose a combined solution. 
-
-
-
-allow researchers to easily use semantic techniques as collections of services. Thus, they can reuse them in their deployments or even incorporate new services to share with other researchers. 
+**Librairy** is a service-oriented platform that aims to simplify the construction of large scale text-analyzers. It is a collection of Natural Language Processing (NLP) tasks, machine learning algorithms and semantic techniques distributed as services to compose a combined solution. It allows researchers to easily use these services, so that they can reuse them in their deployments or even incorporate new services to share with other researchers. 
 
 
 designed specifically using open-source java libraries. The aim of this framework is to allow researchers to easily use semantic techniques as collections of services. Thus, they can reuse them in their deployments or even incorporate new services to share with other researchers. 
