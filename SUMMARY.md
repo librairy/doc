@@ -7,6 +7,7 @@
    * [Domain](resources/domain.md)
    * [Document](resources/document.md)
    * [Item](resources/item.md)
+   * Part
 * [Architecture](architecture.md)
 * [Deployment](deployment.md)
 
