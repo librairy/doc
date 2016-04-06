@@ -71,6 +71,11 @@ networks:
  db:
  events:
 ```
+and then, deploy it by typing:
+
+```sh
+$ docker-compose up
+```
 
 
 ### Explorer
@@ -84,3 +89,43 @@ It provides programmatic access to functionality and content of *librairy*. Diff
 Each of them is presented as a RESTful-API using JSON as the return format.
 
 Create a `explorer/` folder and a `docker-compose.yml` file inside it with the following data:
+
+```yml
+version: "2"
+services:
+ explorer:
+   container_name: explorer
+   image: librairy/explorer:latest
+   expose:
+     - "8080"
+   ports:
+     - "8080:8080"
+   external_links:
+     - column-db
+     - document-db
+     - graph-db
+     - event-bus
+   networks:
+     - "db"
+     - "events"
+networks:
+  db:
+    external:
+      name: base_db
+  events:
+    external:
+      name: base_events
+
+```
+
+and then, deploy it by typing:
+
+```sh
+$ docker-compose up
+```
+
+That's all!! librairy explorer should be run in your system now.
+
+Verify that it works on: [http://localhost:8080/api](http://localhost:8080/api).
+
+Note that by using Docker from OS X or Windows, the host address is not `localhost`. See [here](https://docs.docker.com/engine/installation/mac/) for more details.
