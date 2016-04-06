@@ -16,7 +16,6 @@ All services have been built by using the [Boot](https://github.com/librairy/boo
 
 
 ### Key Benefits
-
 * Scalable: applications are built in modules, and with event-driven architecture
 * Sensible defaults: Underscore templates are used for view rendering
 * Easily modifiable: make it work with your application's specific needs
