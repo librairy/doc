@@ -75,4 +75,17 @@ In this case, the values may be:
 
 When a producer sends a message to the routing-key: `document.created`, both Consumer1 and  Consumer2 will receive that message. 
 
-So,  in  this  scenario,  the  message  will  be  duplicated  among  consumers  which  have  the  same  topic-key but different group-key. 
+So,  in  this  scenario,  the  message  will  be  duplicated  among  consumers  which  have  the  same  topic-key but different group-key.
+
+### Scenario 3: Different topic\keys and same group\keys 
+
+In this case, the values may be:  
+* Topic_A = `document.created`
+* Topic_B = `document.deleted`
+* Group_A = `harvester`
+* Group_B = `harvester`
+
+When a producer sends a message to the routing-key: `document.created`, only the Consumer1  will  receive  the  message.  When  a  producer  sends  the  message  to  the  routing-key:  `document.deleted`, only the Consumer2 will receive it.  
+
+In  this  scenario,  the  consumers  are  listening  for  different  messages.  The  common  group-key  has  no  effect because the topic-keys are different. 
+
