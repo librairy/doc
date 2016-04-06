@@ -28,4 +28,4 @@ The first part identifies the resource associated to the event, and the second o
 An  exchange  is  bound  to  queues  through  binding-keys  composed  by  a  ***topic-key***  and  a  ***group-key***.  Messages will be delivered to those queues bound to the exchange with a binding-key that matches  with the routing-key of the message. 
 
 The topic-key is defined in the same way that the routing-key, so it is also composed by two words separated by one dot. There are two special cases for matching a topic-key:  
-* '`*`': it means that it can be substituted by exactly one word (e.g. `*.created` listen for all the new resources added to the system). 
+* '`*`': it means that it can be substituted by exactly one word (e.g. `*.created` listen for all the new resources and relations added to the system). 
