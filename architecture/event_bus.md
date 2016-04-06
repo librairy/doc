@@ -17,4 +17,8 @@ We adopted the *exchange paradigm* for building our event-bus. Thus, every modul
 Considering  only  systems  that  offer  persistence  and  replication  as  well  as  routing,  delaying  and  redelivering implementing the AMQP protocol, we used the [RabbitMQ Message Broker](http://www.rabbitmq.com/).
 
 ## Routing-Key
-In general, a `routing-key` can be defined by a list of words delimited by dots. In our case, it consists of only two words separated by one dot:  
+In general, a `routing-key` can be defined by a list of words delimited by dots. In our case, it consists of only two words separated by one dot:
+
+```
+                                    <resource>.<status>
+```
