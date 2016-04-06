@@ -10,6 +10,7 @@ A source is a repository of research objects.  It contains the following informa
 A source may contain zero or more references to documents and a document may have one or more  references to sources, i.e. the same document can be available in more than one source. 
 
 ![resource-source](https://dl.dropboxusercontent.com/u/299257/librairy/figures/resource-source.png)
+
 It may be a static or a dynamic repository:  
 * **Static**: repository that will not change along time. So, once processed, new information will never be available from it again. It can be a single file (e.g. 
 `http://world.std.com/~rjs/indinf56.pdf`) or a closed time-based expression for an 
